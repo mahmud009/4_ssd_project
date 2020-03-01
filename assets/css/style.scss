@@ -191,6 +191,8 @@ section {
     padding: 20px 20px 20px 20px;
     border-radius: 0 0 0 0;
     box-shadow: none;
+
+    display: none;
   }
 
   h1 {
@@ -396,7 +398,7 @@ input[type="submit"] {
       justify-content: center;
 
       @include mobile {
-        width: 90px;
+        width: 80px;
         border-radius: 0;
       }
 

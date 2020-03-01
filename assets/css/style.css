@@ -243,6 +243,7 @@ section {
     border-radius: 0 0 0 0;
     -webkit-box-shadow: none;
             box-shadow: none;
+    display: none;
   }
 }
 
@@ -516,7 +517,7 @@ input[type="submit"] {
 
 @media (max-width: 960px) {
   .social-media-login ul li {
-    width: 90px;
+    width: 80px;
     border-radius: 0;
   }
 }
