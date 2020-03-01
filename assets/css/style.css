@@ -134,6 +134,8 @@ header nav ul {
   header nav ul {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    position: relative;
+    margin-top: 45px;
   }
 }
 
@@ -168,6 +170,12 @@ header nav ul li:first-child {
   margin-left: 0;
 }
 
+@media (max-width: 960px) {
+  header nav ul .logo {
+    position: absolute;
+  }
+}
+
 header nav ul .logo img {
   width: 50px;
   height: auto;
@@ -175,7 +183,9 @@ header nav ul .logo img {
 
 @media (max-width: 960px) {
   header nav ul .logo img {
-    width: 30px;
+    width: 40px;
+    -webkit-transform: translateY(-85%);
+            transform: translateY(-85%);
   }
 }
 
